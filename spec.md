@@ -1,10 +1,8 @@
-# The task
-
-Write an extension to the linux firewall which makes it possible to specify which programs are allowed use which outgoing port.
-
-More precisely, you should write a _user space program_ and a _kernel module_
+These are the specifications for implementing the logging server
 
 ## Firewall rules
+
+Write an extension to the linux firewall which makes it possible to specify which programs are allowed use which outgoing port.
 
 A firewall rule consists of a port number and a filename (the full path) of a program separated by a space, meaning that the corresponding program is allowed to make outgoing connections on this TCP-port.
 
