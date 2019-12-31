@@ -1,4 +1,4 @@
-## Character Firewall Extension - LKM (loadable kernel module)
+## Linux Firewall Extension - LKM (loadable kernel module)
 > This is an LKM that implements firewall extension for Linux kernel
 
 ### __WARNING__
