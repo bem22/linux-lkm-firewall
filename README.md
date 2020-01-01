@@ -4,6 +4,9 @@
 ### __WARNING__
 >Although this LKM has been tested, I do not recommend loading it on your own machine and I do not give any guarantee that it will not crash your kernel or alter the memory on your machine.
 
+## Specification
+Please see [SPEC.md](spec.md) file to understand the problem that this project is trying to resolve.
+
 #### Implementation
 > It is implemented using the linked list defined in firewallExtension.h and it is using Linux semaphores to avoid concurrency conflicts between multiple processes that might access the module.
 
